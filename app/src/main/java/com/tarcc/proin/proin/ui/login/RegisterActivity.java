@@ -99,7 +99,6 @@ public class RegisterActivity extends AppCompatActivity {
         String username = binding.username.getText().toString();
 
         if(!validation()){
-            //TODO error message
             Toast.makeText(this,"Please enter required fields", Toast.LENGTH_LONG).show();
         }
         else{

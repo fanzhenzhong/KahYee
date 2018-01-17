@@ -2,6 +2,7 @@ package com.tarcc.proin.proin.ui.profile;
 
 import android.app.Activity;
 import android.content.Context;
+import android.databinding.DataBindingUtil;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,9 +14,6 @@ import com.tarcc.proin.proin.model.ProductPackage;
 
 import java.util.List;
 
-/**
- * Created by yee_l on 14/1/2018.
- */
 
 public class MyServiceAdaptor extends ArrayAdapter<ProductPackage>{
     private List<ProductPackage> list;

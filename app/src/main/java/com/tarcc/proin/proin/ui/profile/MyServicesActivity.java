@@ -46,7 +46,6 @@ public class MyServicesActivity extends BaseActivity {
     private SharedPreferences.Editor editor;
     private List<ProductPackage> productPackageArry;
    private ProductPackage productPackage;
-    private ListView listViewMyService;
 
     private User user;
     private String myic;
@@ -130,10 +129,6 @@ public class MyServicesActivity extends BaseActivity {
 
                                         productPackage = new ProductPackage(nric, productID,coverage,premium,status,expireDate,totPaymentYear);
                                         productPackageArry.add(productPackage);
-
-                                        //Intent MainIntent = new Intent(LoginActivity.this, MainActivity.class);
-                                        //LoginActivity.this.startActivity(MainIntent);
-
                             }
                                 loadMyServices();
 

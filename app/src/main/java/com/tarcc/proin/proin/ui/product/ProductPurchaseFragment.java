@@ -203,8 +203,6 @@ public class ProductPurchaseFragment extends Fragment{
                                     Toast.makeText(getActivity(), message, Toast.LENGTH_LONG).show();
 
                                     MainActivity.start(getActivity());
-                                    //Intent newIntent = new Intent(getActivity(), MyServicesActivity.class);
-                                    //startActivity(newIntent);
 
                                 }else{
                                     Toast.makeText(getActivity(), message, Toast.LENGTH_LONG).show();
