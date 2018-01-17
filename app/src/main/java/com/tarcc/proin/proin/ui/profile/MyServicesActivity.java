@@ -163,5 +163,4 @@ public class MyServicesActivity extends BaseActivity {
         binding.productList.setAdapter(myServiceAdaptor);
     }
 
-
 }
